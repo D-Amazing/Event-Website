@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-Center webpage</title> 
+    <link rel="stylesheet" href="css.css"> 
+    <link rel="stylesheet" href="navbar.html"> 
+  </head>
+  <body> 
+    <header>
+        <h1>Welcome to the Menu</h1>  
+    </header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="joyner.logo.jpg" alt="Smooth Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#menu.html">Menu</a></li>
+            <li><a href="location.html">Location</a></li>
+        </ul>
+    </nav> 
+    <!-- Menu Section-->
+    <table class="menu-table"> 
+        <thead> 
+            <tr> 
+                <th>Item</th> 
+                <th>Price</th> 
+            </tr> 
+        </thead> 
+        <tbody> 
+            <tr class="category"> 
+                <td colspan="3"><strong>Appetizers</strong></td> 
+            </tr> <tr> <td>Garlic Bread</td> 
+                <td>$5.99</td> <td>
+                </tr> 
+                <tr> 
+                    <td>Bruschetta</td> 
+                    <td>$7.99</td> <td>   
+                    </tr> 
+                    <tr class="category"> 
+                        <td colspan="3"><strong>Mains</strong></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Grilled Steak</td>
+                        <td>$10.00</td>
+                        </tr> 
+                        <tr> 
+                            <td>Chicken Alfredo</td> 
+                            <td>$15.99</td> 
+                        </tr> 
+                        <tr class="category"> 
+                            <td colspan="3"><strong>Desserts</strong></td>
+                         </tr> 
+                         <tr> 
+                            <td>Chocolate Cake</td>
+                             <td>$8.99</td> 
+                             </tr> 
+                             <tr> 
+                                <td>Cheesecake</td> 
+                                <td>$9.99</td> 
+                            </tr> 
+        </tbody> 
+    </table>
+    <!-- Order Form with Submit button-->
+     <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+        <label for="Order">Select Item</label>
+        <select id="order" name="order">
+            <option value="Garlic Bread">Garlic-Bread - $5.99</option>
+            <option value="Bruschetta">Bruschetta - $7.99</option>
+            <option value="Grilled Steak">Grilled-Steak - $10.00</option>
+            <option value="Chicken Alfredo">Chicken Alredo - $15.99</option>
+            <option value="Chocolate Cake">Chocolate Cake - $8.99</option>
+            <option value="Cheesecake">Cheesecake - $9.99</option> 
+        </select>
+        <input type="Submit" value="Place Order"> 
+     </form>
+  </body>
+</html>
